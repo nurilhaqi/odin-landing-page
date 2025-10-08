@@ -1,3 +1,48 @@
 body {
   font-family: Roboto;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 16px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+li {
+  margin-bottom: 16px;
 }
