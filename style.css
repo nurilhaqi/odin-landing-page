@@ -111,3 +111,25 @@ button.herosignup {
   height: auto;
   border-radius: 10px;
 }
+
+
+/* Information */
+.information{
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  gap: 32px;
+}
+
+.informationcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
