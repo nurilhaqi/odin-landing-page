@@ -99,6 +99,17 @@ button.herosignup {
   width: fit-content;
 }
 
+button.herosignup:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+}
+
 .righthero {
   flex: 1;
   display: flex;
@@ -210,7 +221,7 @@ button.herosignup {
   color: #3882F6;
 }
 
-.rightmodal{
+.leftmodal{
   display: flex;
   flex-direction: column;
 }
