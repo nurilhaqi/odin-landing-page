@@ -116,12 +116,19 @@ button.herosignup {
 /* Information */
 .information{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 120px;
+  gap: 40px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
   gap: 32px;
+  color: #1F2937;
 }
 
 .informationcontainer {
@@ -132,4 +139,43 @@ button.herosignup {
 
 .info {
   max-width: 200px;
+}
+
+.box{
+  max-height: 180px;
+  border-radius: 10px;
+}
+
+
+/* quote */
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.thequote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  line-height: 1.5;
+}
+
+.thequoter {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+/* modal */
+.modal{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 120px;
+  gap: 40px;
 }
