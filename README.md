@@ -5,6 +5,10 @@ Landing Page from The Odin Project Course
 
 I'm trying to relearn the fundamentals of programming through the Odin Project.
 
+Here's the deployed link:
+
+--> https://nurilhaqi.github.io/odin-landing-page/ <--
+
 ## What is Odin Project?
 The Odin Project is one of those "What I wish I had when I was learning" resources. Odin project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.
 
