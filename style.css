@@ -38,6 +38,10 @@ body {
   font-weight: bold;
 }
 
+.logo{
+  font-size: 22px;
+}
+
 .links {
   font-weight: normal;
 }
