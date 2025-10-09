@@ -1,48 +1,124 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   margin: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
+/* HEADER & FOOTER */
+.header, .footer {
+  height: 52px;
+  background-color: #1F2937;
+  color: white;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding: 16px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+  height: 72px;
 }
 
-.links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    flex-wrap: wrap;
-    padding: 16px;
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+/* LOGO & LINKS */
+.logo, .links {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.links {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
   gap: 16px;
 }
 
-li {
-  margin-bottom: 16px;
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 60px 120px;
+  gap: 40px;
 }
+
+.lefthero {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+}
+
+.heromaintext {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.herosubtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button.herosignup {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.righthero {
+  flex: 1;
+  min-width: 400px;
+  max-width: 500px;
+  height: 250px;
+  background-color: #6d747d;
+  color: #e5e7eb;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+}
+
+.heroimage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
+
